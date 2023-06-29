@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 990px;
+    
+
+ 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav .active a,
+nav a:hover{
+    background-color:#39AAE1;
+    color: #fff;
+}
+
+
+#banner{
+    display: flex;
+    justify-content:center;
+    background-image: url('../image/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+    
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.texto h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px #474747;
+    max-width: 350px;
+}
+.texto h2{
+    color: #fff;
+    font-size: 21px;
+    font-family: sans-serif;
+    text-shadow: 1px 1px 2px #474747;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.blocos{
+    height: 210px;
+    display: flex;
+    
+  
+    
+}
+
+.bloco1,
+.bloco2,
+.bloco3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.bloco1{
+    background-color: #39AAE1;
+}
+
+.bloco2{
+    background-color: #0079c7;
+}
+
+.bloco3{
+    background-color: #2b4c99;
+}
+
+.blocoTitulo{
+    font-size:21px;
+}
+
+.desc{
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.botao{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid  #fff;
+    color: #fff;
+    font-size: 15px;
+}
+
+.desc2{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 22px;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    border-bottom: solid rgba(92, 160, 250, 0.205) 1px;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex:2;
+   
+}
+
+#geral aside{
+    flex:1;
+   
+}
+
+.widgetTitle{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widgetTitleText{
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widgetTitleBar{
+    width: 50px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #36a9e1;
+}
