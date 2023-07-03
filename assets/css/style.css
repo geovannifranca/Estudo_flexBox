@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    font-style: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,8 +20,6 @@ header{
     justify-content: space-between;
     width: 990px;
     
-
- 
 }
 
 .logo{
@@ -96,8 +95,6 @@ nav a:hover{
     height: 210px;
     display: flex;
     
-  
-    
 }
 
 .bloco1,
@@ -157,12 +154,10 @@ nav a:hover{
 
 #geral section{
     flex:2;
-   
 }
 
 #geral aside{
     flex:1;
-   
 }
 
 .widgetTitle{
@@ -182,3 +177,105 @@ nav a:hover{
     margin-top: 10px;
     background-color: #36a9e1;
 }
+
+
+aside .widgetBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;                            
+
+
+}
+
+.box{
+    min-width: 150px;
+    min-height: 150px;
+    margin-bottom: 20px;
+    background-color: #36a9e1;
+
+}
+
+
+article .newsData{
+    display: flex;
+}
+
+article .newsPostedAt{
+    background-color: #2b4c99; 
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2PX;
+}
+
+article .newsComents{
+    background-color: #39AAE1;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+
+
+
+.text{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.phone, .email, .instagram{
+    padding-bottom: 15px;
+    border-bottom: solid rgba(63, 142, 246, 0.364) 1px;
+}
+
+.phone i,
+.email i,
+.instagram i{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+
+article .thumb{
+    margin-top: 30px;
+}
+
+article .thumb img{
+    width: 100%;
+}
+
+article .newTitle{
+    color: #000;
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    font-size: 23px;
+}
+
+article .resume{
+    line-height: 19px;
+    font-size: 14px;
+}
+
+article a{
+    color: #474747;
+}
+
+footer{
+    display: flex;
+    background-color: #1e1e1e;
+    justify-content: center;
+}
+
