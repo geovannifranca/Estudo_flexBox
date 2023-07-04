@@ -62,15 +62,14 @@ nav a:hover{
 }
 
 .column{
-    display: flex;
     flex-direction: column;
 }
 
 .texto{
-    flex:1;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;;
     
 }
 
@@ -102,6 +101,7 @@ nav a:hover{
     flex: 1;
     color: #fff;
     padding: 20px;
+    font-size: 21px;
     
 }
 
@@ -239,8 +239,8 @@ article .newsComents{
 article{
     flex: 1;
     min-width: 300px;
-    margin-right:20px;
-    margin-bottom: 20px;
+    margin-right: 20px;
+
 }
 
 
@@ -377,4 +377,60 @@ footer{
     line-height: 40px;
     font-size: 12px;
     margin-top: 30px;
+}
+
+@media (max-width:972px) {
+    .texto{
+        padding: 100px 20px;
+        height: auto;
+    }
+}
+
+@media (max-width:600px) {
+
+    #banner{
+        height: auto;
+    }
+
+    .texto{
+        padding: 100px 20px;
+        height: auto;
+    }
+
+    .texto h1{
+        font-size: 55px;
+    }
+
+    .texto h2{
+        font-size: 17px;
+    }
+
+    .blocos{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    article{
+        margin-right: 0;
+    }
+
+    #geral section{
+        padding: 20px;
+    }
+
+    #geral aside{
+        padding: 20px;
+    }
+
+    .footerMenu {
+        flex-direction: column;
+    }
+    .footerArea{
+        flex-direction: column;
+        padding: 20px;
+    }
 }
