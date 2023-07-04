@@ -203,7 +203,7 @@ article .newsPostedAt{
     color: #fff;
     font-size: 12px;
     padding: 10px;
-    margin-right: 2PX;
+    margin-right: 2px;
 }
 
 article .newsComents{
@@ -212,9 +212,6 @@ article .newsComents{
     font-size: 12px;
     padding: 10px;
 }
-
-
-
 
 
 .text{
@@ -242,7 +239,8 @@ article .newsComents{
 article{
     flex: 1;
     min-width: 300px;
-    margin-right: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
 }
 
 
@@ -298,6 +296,21 @@ footer{
     background-color: #2b4c99;    
 }
 
+.fmTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fmText{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.footerMenu a{
+    display: block;
+    color: #fff;
+}
+
 .flexColumn{
     flex-direction: column;
 }
@@ -308,13 +321,58 @@ footer{
 
 .footerAreaItem{
     flex: 1;
+    color: #8d8d8d;
+    font-size: 12px;
+
+}
+
+.footerAreaItem .widgetBody{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.wb1, .wb2, .wb3{
+    margin-top: 15px;
+}
+
+.wb3 i{
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(63, 63, 63);
+    background-color: #2c2c2c;
+}
+
+.footerAreaItem .wb2{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.cont strong{
     color: #fff;
 }
+
+.footerAreaItem .widgetTitleText{
+    color: #fff;
+}
+
+.lest1, .lest2, .lest3{
+    color: #fff;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.lest1 i, .lest2 i, .lest3 i{
+    padding-right: 5px;
+}
+
 
 
 
 .footerCopy{
     border-top: solid 1px #2c2c2c;
+    color: #474747;
     height: 40px;
     line-height: 40px;
     font-size: 12px;
